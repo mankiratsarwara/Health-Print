@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[User] (
+    [Username]           VARCHAR (15)   NOT NULL,
+    [First Name]         VARCHAR (30)   NOT NULL,
+    [Last Name]          VARCHAR (30)   NOT NULL,
+    [Age]                INT            NOT NULL,
+    [Weight]             INT            NOT NULL,
+    [Height]             INT            NOT NULL,
+    [Resting Heart Rate] INT            NOT NULL,
+    [Sleep]              INT            NOT NULL,
+    [BMI]                DECIMAL (3, 1) NULL,
+    [Password]           VARCHAR (40)   NOT NULL
+);
